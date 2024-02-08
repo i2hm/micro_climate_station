@@ -1,0 +1,11 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LIS2DH12")(type "KiCad")(uri "D:/Download/LIS2DH12/KiCad")(options "")(descr ""))
+  (lib (name "Librairies KiCad RAK")(type "KiCad")(uri "${KIPRJMOD}/Librairies KiCad RAK")(options "")(descr "")(disabled))
+  (lib (name "ADS1113IRUGR")(type "KiCad")(uri "${KIPRJMOD}/Librairies KiCad RAK/ADS1113IRUGR")(options "")(descr ""))
+  (lib (name "BME280")(type "KiCad")(uri "${KIPRJMOD}/Librairies KiCad RAK/BME280")(options "")(descr ""))
+  (lib (name "BME680")(type "KiCad")(uri "${KIPRJMOD}/Librairies KiCad RAK/BME680")(options "")(descr ""))
+  (lib (name "Grove 4 Pins")(type "KiCad")(uri "${KIPRJMOD}/Librairies KiCad RAK/Grove 4 Pins")(options "")(descr ""))
+  (lib (name "LIS2DE12TR")(type "KiCad")(uri "${KIPRJMOD}/Librairies KiCad RAK/LIS2DE12TR")(options "")(descr ""))
+  (lib (name "RAK3172")(type "KiCad")(uri "${KIPRJMOD}/Librairies KiCad RAK/RAK3172")(options "")(descr ""))
+)

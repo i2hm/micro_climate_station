@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LIS2DH12
+D MEMS digital output motion sensor: ultra-low-power high-performance 3-axis "femto" accelerometer
+K
+F https://www.st.com/en/mems-and-sensors/lis2dh12.html#overview
+$ENDCMP
+#
+#End Doc Library

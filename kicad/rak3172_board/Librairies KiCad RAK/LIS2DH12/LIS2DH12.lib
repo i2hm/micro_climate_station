@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model LIS2DH12
+#/14513087/1317207/2.50/12/4/Integrated Circuit
+DEF LIS2DH12 IC 0 30 Y Y 1 F N
+F0 "IC" 1450 300 50 H V L CNN
+F1 "LIS2DH12" 1450 200 50 H V L CNN
+F2 "LIS2DH12" 1450 100 50 H I L CNN
+F3 "https://www.st.com/en/mems-and-sensors/lis2dh12.html#overview" 1450 0 50 H I L CNN
+F4 "MEMS digital output motion sensor: ultra-low-power high-performance 3-axis \"femto\" accelerometer" 1450 -100 50 H I L CNN "Description"
+F5 "1" 1450 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 1450 -300 50 H I L CNN "Manufacturer_Name"
+F7 "LIS2DH12" 1450 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "N/A" 1450 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LIS2DH12?qs=yXzv9R%2FF42Ia01kPyHCTbw%3D%3D" 1450 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1450 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1450 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X SCL/SPC 1 0 0 200 R 50 50 0 0 P
+X CS 2 0 -100 200 R 50 50 0 0 P
+X SDO/SA0 3 0 -200 200 R 50 50 0 0 P
+X SDA/SDI/SDO 4 0 -300 200 R 50 50 0 0 P
+X RES 5 0 -400 200 R 50 50 0 0 P
+X GND_1 6 0 -500 200 R 50 50 0 0 P
+X GND_2 7 1600 0 200 L 50 50 0 0 P
+X GND_3 8 1600 -100 200 L 50 50 0 0 P
+X VDD 9 1600 -200 200 L 50 50 0 0 P
+X VDD_IO 10 1600 -300 200 L 50 50 0 0 P
+X INT_2 11 1600 -400 200 L 50 50 0 0 P
+X INT_1 12 1600 -500 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1400 100 1400 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
