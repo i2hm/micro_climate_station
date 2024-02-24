@@ -1,6 +1,6 @@
 # Mikrobus click for Quectel LC29H GNSS RTK modules
 
-This module is similar to the [GNSS RTK 3 Click (MIKROE-5914)](https://www.mikroe.com/gnss-rtk-3-click)
+This Mikrobus module is similar to the [GNSS RTK 3 Click (MIKROE-5914)](https://www.mikroe.com/gnss-rtk-3-click). Its design respects the [Mikrobus form factor](https://download.mikroe.com/documents/standards/mikrobus/mikrobus-standard-specification-v200.pdf)
 
 * 17 LC29HEAMD (rover)
 * 8 LC29HBSAMD (base)
