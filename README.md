@@ -1,5 +1,5 @@
 # Micro Climate Station
 
-* [868 MHz antenna for RAK3172 Board](./antenna_eu868)
-* [Quectel L29H Mikrobus Board](./l29h_mikrobus)
-* [RAK3172 Board](./rak3172_board)
+* [Microclimate station board based on RAK3172 module](kicad/rak3172_board)
+* [868 MHz PCB antenna for RAK3172 module](kicad/antenna_eu868)
+* [Quectel L29H Mikrobus Board](kicad/lc29h_mikrobus)
