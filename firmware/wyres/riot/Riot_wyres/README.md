@@ -1,2 +1,2 @@
 #POLYTECH GRENOBLE IoT wyres 
-#RIOT_OS for wyres, made during
+#RIOT_OS for wyres, made during PFE
