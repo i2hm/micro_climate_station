@@ -1,9 +1,11 @@
 # Micro Climate Station
 
-* [Microclimate station board based on RAK3172 module](kicad/rak3172_board)
+PCB designs and firmwares for the Microclimate station.
+
+* [Microclimate station board based on LoRa RAK3172 module](kicad/rak3172_board)
 * [Microclimate station board extension for MPPT and PMS7003](kicad/mppt_pms7003_board)
-* [868 MHz PCB antenna for RAK3172 module](kicad/antenna_eu868)
-* [Quectel L29H Mikrobus Board](kicad/lc29h_mikrobus)
+* [868 MHz PCB antenna for LoRa RAK3172 module](kicad/antenna_eu868)
+* [Mikrobus adapter for Quectel RTK GNSS LC29H module](kicad/lc29h_mikrobus)
 
 ## Licence
 
