@@ -3,7 +3,7 @@
 ![Top](media/ih2m-rak-top.png) ![Botton](media/ih2m-rak-bottom.png)
 
 ## Features
-* [RAK3172](https://store.rakwireless.com/products/wisduo-lpwan-module-rak3172?variant=43329454407878) (MCU [STM32WLE5](https://www.st.com/en/microcontrollers-microprocessors/stm32wlex.html)) LoRa module (available for 800 MHz and 400 MHz regions w/o TCXO)
+* [RAK3172](https://store.rakwireless.com/products/wisduo-lpwan-module-rak3172?variant=43329454407878) (MCU [STM32WLE5](https://www.st.com/en/microcontrollers-microprocessors/stm32wlex.html)) LoRa module (available for 800 MHz and 900 MHz regions w/o TCXO)
 * On-board Sensors:
   * [BME680](https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme680/) : Temperature, Humidity, Pressure
   * [PMS7003](https://www.plantower.com/en/products_33/76.html): PM 1, 2.5, 10 (2x10 2mm header)
