@@ -6,7 +6,6 @@
 * [RAK3172](https://store.rakwireless.com/products/wisduo-lpwan-module-rak3172?variant=43329454407878) (MCU [STM32WLE5](https://www.st.com/en/microcontrollers-microprocessors/stm32wlex.html)) LoRa module (available for 800 MHz and 900 MHz regions w/o TCXO)
 * On-board Sensors:
   * [BME680](https://www.bosch-sensortec.com/products/environmental-sensors/gas-sensors/bme680/) : Temperature, Humidity, Pressure
-  * [PMS7003](https://www.plantower.com/en/products_33/76.html): PM 1, 2.5, 10 (2x10 2mm header)
   * [LIS2DH12](https://www.st.com/en/mems-and-sensors/lis2dh12.html) : MEMS digital output motion sensor: ultra-low-power high-performance 3-axis "femto" accelerometer
 * Grove connectors for UART (x2), I2C (x1), Analog GPIO (x2) and Digital GPIO (x1)  
 * Connectivity: LoRaWAN, [LoRa Mesh](https://meshtastic.org/) (coming soon)
