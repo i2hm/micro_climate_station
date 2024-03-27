@@ -5,6 +5,6 @@
 * [868 MHz PCB antenna for RAK3172 module](kicad/antenna_eu868)
 * [Quectel L29H Mikrobus Board](kicad/lc29h_mikrobus)
 
-## Licenses
+## Licence
 
-See [LICENSES.md](./LICENSES.md)
+[CERN Open Hardware Licence Version 2 - Strongly Reciprocal](./LICENCE.txt) ([wiki](https://ohwr.org/project/cernohl/wikis/home))
