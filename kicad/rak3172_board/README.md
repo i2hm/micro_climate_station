@@ -1,5 +1,7 @@
 # I2HM Microclimate Station :: Board (RAK3172 version)
 
+![Board](media/i2hm-rak3271-board.jpg)
+
 ![Top](media/ih2m-rak-top.png) ![Botton](media/ih2m-rak-bottom.png)
 
 ## Features
