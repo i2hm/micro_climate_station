@@ -1,13 +1,12 @@
-# I2HM Microclimate Station :: Board extension for MPPT and PMS7003
+# I2HM Microclimate Station :: Air quality and Power extension for MPPT and PMS7003
 
-This board is an extension board for the [Microclimate station board](../rak3172_board/README.md)
+This board is an extension board for adding air quality monitoring to the [Microclimate station board](../rak3172_board/README.md).
 
 It includes :
 * a 10 pin connector for a [Plantower PMS7003 Particulate Matter sensor](https://www.plantower.com/en/products_33/76.html)
 * a JST connector for a LiPo battery
 * a JST connector for a solar panel
 * a optional connector for a [Plantower PMS9003M Particulate Matter sensor](https://www.plantower.com/en/products_33/99.html)
-
 
 ## MPPT
 
