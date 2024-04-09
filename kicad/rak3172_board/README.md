@@ -2,8 +2,6 @@
 
 ![Board](media/i2hm-rak3271-board.jpg)
 
-![Top](media/ih2m-rak-top.png) ![Botton](media/ih2m-rak-bottom.png)
-
 ## Features
 * [RAK3172](https://store.rakwireless.com/products/wisduo-lpwan-module-rak3172?variant=43329454407878) (MCU [STM32WLE5](https://www.st.com/en/microcontrollers-microprocessors/stm32wlex.html)) LoRa module (available for 800 MHz and 900 MHz regions w/o TCXO)
 * On-board Sensors:
@@ -21,3 +19,8 @@ Clone this repository.
 Open the KiCad project using KiCad 7 and above.
 
 If necessary import the symbol and footprint libraries in the project.
+
+## Bonus track
+
+![Top](media/ih2m-rak-top.png) ![Botton](media/ih2m-rak-bottom.png)
+
