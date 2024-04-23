@@ -16,7 +16,7 @@ It includes :
 ## References
 
 * [Sunny Buddy Solar Charger V13 Hookup Guide](https://learn.sparkfun.com/tutorials/sunny-buddy-solar-charger-v13-hookup-guide) with [LT3652](https://cdn.sparkfun.com/datasheets/Prototyping/LT3652.pdf)
-
+* [Firmware with RIOT-OS](https://airqualitystation.github.io/#lora-e5-mini-with-bme280-and-pms7003)
 
 ### Plantower PMS7003 pinout
 | Pin | Function |
@@ -31,4 +31,3 @@ It includes :
 | 8 | (N/C) |
 | 9 | (TX) |
 | 10 | (Set) |
-
