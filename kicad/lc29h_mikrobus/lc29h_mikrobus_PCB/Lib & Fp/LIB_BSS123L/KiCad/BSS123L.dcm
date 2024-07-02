@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BSS123L
+D ON SEMICONDUCTOR - BSS123L - MOSFET, N-CHANNEL, 100V, 0.17A, SOT-23-3
+K
+F https://www.onsemi.com/pub/Collateral/BSS123LT1-D.PDF
+$ENDCMP
+#
+#End Doc Library
