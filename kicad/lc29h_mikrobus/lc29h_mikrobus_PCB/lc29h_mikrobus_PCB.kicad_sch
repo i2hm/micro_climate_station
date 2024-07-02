@@ -5,6 +5,510 @@
 	(uuid "a15f8393-41c5-45bb-9399-4aee6cf3113a")
 	(paper "A4")
 	(lib_symbols
+		(symbol "74LVC1G3157GV_125:74LVC1G3157GV,125"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "74LVC1G3157GV,125"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOP95P275X110-6N"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.in/datasheet/2/916/74LVC1G3157-1318329.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "74LVC1G3157GV,125"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "NXP"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "74LVC1G3157GV,125"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 21.59 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 21.59 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "74LVC1G3157GV,125_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "Y1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "Y0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "Z"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DS28E36BQ+U:DS28E36BQ+U"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "DS28E36BQ+U"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SON95P300X300X80-7N"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/DS28E36/datasheet"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "DeepCover Secure Authenticator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.8"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Analog Devices"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "DS28E36BQ+U"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "700-DS28E36BQ+U"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/DS28E36BQ%2bU?qs=vLWxofP3U2xqkxEncXmKPw%3D%3D"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 26.67 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 26.67 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "DS28E36BQ+U_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin no_connect line
+					(at 0 0 0)
+					(length 5.08)
+					(name "N.C."
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "IO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "PIOB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "PIOA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "CEXT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -17.78 90)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -925,10 +1429,505 @@
 				)
 			)
 		)
+		(symbol "TXS0108EPWR:TXS0108EPWR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "TXS0108EPWR"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOP65P640X120-20N"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txs0108e.pdf"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "TXS0108EPWR, Voltage Level Translator, Open Drain 1.2  3.6 V, 1.65  5.5 V 20-Pin TSSOP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TXS0108EPWR"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-TXS0108EPWR"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXS0108EPWR?qs=IUbkBnfnSQLgiWtCbWtYOw%3D%3D"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "TXS0108EPWR"
+				(at 24.13 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/txs0108epwr/texas-instruments?region=nac"
+				(at 24.13 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "TXS0108EPWR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -25.4)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -22.86 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -20.32 180)
+					(length 5.08)
+					(name "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -17.78 180)
+					(length 5.08)
+					(name "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -15.24 180)
+					(length 5.08)
+					(name "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -12.7 180)
+					(length 5.08)
+					(name "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -10.16 180)
+					(length 5.08)
+					(name "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -7.62 180)
+					(length 5.08)
+					(name "B3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "VCCB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(wire
 		(pts
-			(xy 152.4 62.23) (xy 157.48 62.23)
+			(xy 93.98 45.72) (xy 99.06 45.72)
 		)
 		(stroke
 			(width 0)
@@ -938,7 +1937,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 48.26) (xy 91.44 52.07)
+			(xy 33.02 31.75) (xy 33.02 35.56)
 		)
 		(stroke
 			(width 0)
@@ -948,7 +1947,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 48.26) (xy 91.44 48.26)
+			(xy 30.48 31.75) (xy 33.02 31.75)
 		)
 		(stroke
 			(width 0)
@@ -958,7 +1957,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 59.69) (xy 152.4 59.69)
+			(xy 99.06 43.18) (xy 93.98 43.18)
 		)
 		(stroke
 			(width 0)
@@ -968,7 +1967,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 101.6) (xy 152.4 101.6)
+			(xy 99.06 85.09) (xy 93.98 85.09)
 		)
 		(stroke
 			(width 0)
@@ -978,7 +1977,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 83.82) (xy 116.84 83.82)
+			(xy 63.5 67.31) (xy 58.42 67.31)
 		)
 		(stroke
 			(width 0)
@@ -988,7 +1987,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 52.07) (xy 157.48 52.07)
+			(xy 93.98 35.56) (xy 99.06 35.56)
 		)
 		(stroke
 			(width 0)
@@ -998,7 +1997,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 63.5) (xy 91.44 63.5)
+			(xy 30.48 46.99) (xy 33.02 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1008,7 +2007,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 57.15) (xy 124.46 57.15)
+			(xy 60.96 40.64) (xy 66.04 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1018,7 +2017,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 99.06) (xy 116.84 99.06)
+			(xy 63.5 82.55) (xy 58.42 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1028,7 +2027,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 49.53) (xy 152.4 49.53)
+			(xy 99.06 33.02) (xy 93.98 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1038,7 +2037,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 46.99) (xy 157.48 46.99)
+			(xy 93.98 30.48) (xy 99.06 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1048,7 +2047,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 64.77) (xy 152.4 64.77)
+			(xy 99.06 48.26) (xy 93.98 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1058,7 +2057,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 83.82) (xy 152.4 83.82)
+			(xy 99.06 67.31) (xy 93.98 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1068,7 +2067,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 54.61) (xy 119.38 54.61)
+			(xy 66.04 38.1) (xy 60.96 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1078,7 +2077,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 46.99) (xy 124.46 46.99)
+			(xy 60.96 30.48) (xy 66.04 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1088,7 +2087,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 86.36) (xy 121.92 86.36)
+			(xy 58.42 69.85) (xy 63.5 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1098,7 +2097,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 88.9) (xy 116.84 88.9)
+			(xy 63.5 72.39) (xy 58.42 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1108,7 +2107,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 88.9) (xy 152.4 88.9)
+			(xy 99.06 72.39) (xy 93.98 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1118,7 +2117,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 63.5) (xy 91.44 59.69)
+			(xy 33.02 46.99) (xy 33.02 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1128,7 +2127,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 91.44) (xy 121.92 91.44)
+			(xy 58.42 74.93) (xy 63.5 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1138,7 +2137,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 54.61) (xy 152.4 54.61)
+			(xy 99.06 38.1) (xy 93.98 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1148,7 +2147,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 86.36) (xy 157.48 86.36)
+			(xy 93.98 69.85) (xy 99.06 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1158,7 +2157,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 59.69) (xy 119.38 59.69)
+			(xy 66.04 43.18) (xy 60.96 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1168,7 +2167,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 91.44) (xy 157.48 91.44)
+			(xy 93.98 74.93) (xy 99.06 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1178,7 +2177,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 57.15) (xy 157.48 57.15)
+			(xy 93.98 40.64) (xy 99.06 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1188,7 +2187,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 62.23) (xy 124.46 62.23)
+			(xy 60.96 45.72) (xy 66.04 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1198,7 +2197,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 93.98) (xy 116.84 93.98)
+			(xy 63.5 77.47) (xy 58.42 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1208,7 +2207,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 64.77) (xy 119.38 64.77)
+			(xy 66.04 48.26) (xy 60.96 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1218,7 +2217,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 96.52) (xy 121.92 96.52)
+			(xy 58.42 80.01) (xy 63.5 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1228,7 +2227,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 49.53) (xy 119.38 49.53)
+			(xy 66.04 33.02) (xy 60.96 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1238,7 +2237,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 52.07) (xy 124.46 52.07)
+			(xy 60.96 35.56) (xy 66.04 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1248,7 +2247,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 101.6) (xy 121.92 101.6)
+			(xy 58.42 85.09) (xy 63.5 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1258,7 +2257,7 @@
 	)
 	(global_label "TXEN"
 		(shape input)
-		(at 157.48 88.9 0)
+		(at 99.06 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1267,7 +2266,7 @@
 		)
 		(uuid "09cebf4f-17a3-4a62-aead-f80dea9b54c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 88.9 0)
+			(at 99.06 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1278,7 +2277,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 119.38 57.15 180)
+		(at 60.96 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1287,7 +2286,7 @@
 		)
 		(uuid "2030c676-2d81-4b66-ab94-a1d085ad94c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 57.15 0)
+			(at 60.96 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1298,7 +2297,7 @@
 	)
 	(global_label "MISO"
 		(shape input)
-		(at 119.38 52.07 180)
+		(at 60.96 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1307,7 +2306,7 @@
 		)
 		(uuid "28567cf8-59ee-4a43-af76-f6a6f1c035c3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 52.07 0)
+			(at 60.96 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1318,7 +2317,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 119.38 62.23 180)
+		(at 60.96 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1327,7 +2326,7 @@
 		)
 		(uuid "2bd2a951-03d3-4bb5-a422-d736680257da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 62.23 0)
+			(at 60.96 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1338,7 +2337,7 @@
 	)
 	(global_label "DIO1"
 		(shape input)
-		(at 157.48 54.61 0)
+		(at 99.06 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1347,7 +2346,7 @@
 		)
 		(uuid "2f90ca80-032b-4522-a7bc-4d18830ac614")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 54.61 0)
+			(at 99.06 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,7 +2357,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 116.84 99.06 180)
+		(at 58.42 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1367,7 +2366,7 @@
 		)
 		(uuid "310f73d6-6947-490c-9674-806b2b332237")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 99.06 0)
+			(at 58.42 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,7 +2377,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 157.48 46.99 0)
+		(at 99.06 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1387,7 +2386,7 @@
 		)
 		(uuid "3ef3acb7-8e06-47b9-a1c6-e01770742d06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 46.99 0)
+			(at 99.06 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1398,7 +2397,7 @@
 	)
 	(global_label "BUSY"
 		(shape input)
-		(at 157.48 57.15 0)
+		(at 99.06 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1407,7 +2406,7 @@
 		)
 		(uuid "3f112ddb-e8c5-4aaa-9b42-30dd2820ce27")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 57.15 0)
+			(at 99.06 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1418,7 +2417,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 88.9 48.26 180)
+		(at 30.48 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1427,7 +2426,7 @@
 		)
 		(uuid "40ba9d12-40ad-4e61-aeb6-c4db298e3813")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 48.26 0)
+			(at 30.48 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1438,7 +2437,7 @@
 	)
 	(global_label "DIO1"
 		(shape input)
-		(at 157.48 86.36 0)
+		(at 99.06 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1447,7 +2446,7 @@
 		)
 		(uuid "434cf315-98f1-4bac-b79c-a8f27bcf4938")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 86.36 0)
+			(at 99.06 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1458,7 +2457,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 157.48 101.6 0)
+		(at 99.06 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1467,7 +2466,7 @@
 		)
 		(uuid "450ea4bf-6504-4e51-ba35-b474ca40abba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 101.6 0)
+			(at 99.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,7 +2477,7 @@
 	)
 	(global_label "TXEN"
 		(shape input)
-		(at 157.48 64.77 0)
+		(at 99.06 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1487,7 +2486,7 @@
 		)
 		(uuid "45b77862-2b4a-4d00-b5c4-2e00ee0e82ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 64.77 0)
+			(at 99.06 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1498,7 +2497,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 88.9 63.5 180)
+		(at 30.48 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1507,7 +2506,7 @@
 		)
 		(uuid "49ab6a72-9afc-4cb3-881d-62c479fa5263")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 63.5 0)
+			(at 30.48 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1518,7 +2517,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 116.84 96.52 180)
+		(at 58.42 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1527,7 +2526,7 @@
 		)
 		(uuid "60ae0ad4-c53c-4e32-b324-241468ba94b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 96.52 0)
+			(at 58.42 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,7 +2537,7 @@
 	)
 	(global_label "DIO2"
 		(shape input)
-		(at 157.48 83.82 0)
+		(at 99.06 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1547,7 +2546,7 @@
 		)
 		(uuid "6a2c3b22-d68d-4235-88e7-5eefc73f8bfa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 83.82 0)
+			(at 99.06 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1558,7 +2557,7 @@
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 116.84 86.36 180)
+		(at 58.42 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1567,7 +2566,7 @@
 		)
 		(uuid "6a78694b-29ba-47c8-856c-1e1b33f2b620")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 86.36 0)
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1578,7 +2577,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 119.38 49.53 180)
+		(at 60.96 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1587,7 +2586,7 @@
 		)
 		(uuid "7e8a2cb6-c930-47c9-b0b9-593e35538bb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 49.53 0)
+			(at 60.96 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1598,7 +2597,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 116.84 101.6 180)
+		(at 58.42 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1607,7 +2606,7 @@
 		)
 		(uuid "7ff37f32-3600-4441-be13-bbde91291bec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 101.6 0)
+			(at 58.42 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,7 +2617,7 @@
 	)
 	(global_label "RXEN"
 		(shape input)
-		(at 157.48 91.44 0)
+		(at 99.06 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1627,7 +2626,7 @@
 		)
 		(uuid "87a9633f-f8bc-4386-b05f-b1b08612a745")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 91.44 0)
+			(at 99.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1638,7 +2637,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 119.38 46.99 180)
+		(at 60.96 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1647,7 +2646,7 @@
 		)
 		(uuid "92374888-f2c5-434f-bd4f-8c5aabcbbd57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 46.99 0)
+			(at 60.96 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,7 +2657,7 @@
 	)
 	(global_label "DIO3"
 		(shape input)
-		(at 157.48 49.53 0)
+		(at 99.06 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1667,7 +2666,7 @@
 		)
 		(uuid "949a676d-a556-4d23-b987-639ce5c89dd3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 49.53 0)
+			(at 99.06 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1678,7 +2677,7 @@
 	)
 	(global_label "NSS"
 		(shape input)
-		(at 119.38 59.69 180)
+		(at 60.96 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1687,7 +2686,7 @@
 		)
 		(uuid "a4fd98a2-1c2a-4c53-af8e-47ceac5837c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 59.69 0)
+			(at 60.96 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,7 +2697,7 @@
 	)
 	(global_label "BUSY"
 		(shape input)
-		(at 116.84 83.82 180)
+		(at 58.42 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1707,7 +2706,7 @@
 		)
 		(uuid "b3683037-6b36-412c-a0a3-7f015e2b8a05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 83.82 0)
+			(at 58.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +2717,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 157.48 62.23 0)
+		(at 99.06 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1727,7 +2726,7 @@
 		)
 		(uuid "b3ddc038-5f15-4e78-a961-d98c9123e33c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 62.23 0)
+			(at 99.06 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1738,7 +2737,7 @@
 	)
 	(global_label "DIO2"
 		(shape input)
-		(at 157.48 52.07 0)
+		(at 99.06 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1747,7 +2746,7 @@
 		)
 		(uuid "c3b43f0f-95bb-41a5-b76b-ecafcf2e0df4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 52.07 0)
+			(at 99.06 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1758,7 +2757,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 119.38 54.61 180)
+		(at 60.96 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1767,7 +2766,7 @@
 		)
 		(uuid "c65381c3-04ba-4469-838f-13ffe34368e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 54.61 0)
+			(at 60.96 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1778,7 +2777,7 @@
 	)
 	(global_label "NSS"
 		(shape input)
-		(at 116.84 88.9 180)
+		(at 58.42 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1787,7 +2786,7 @@
 		)
 		(uuid "dc6441d9-8a14-4749-b1bd-58670e87c79a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 88.9 0)
+			(at 58.42 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,7 +2797,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 116.84 91.44 180)
+		(at 58.42 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1807,7 +2806,7 @@
 		)
 		(uuid "de1d252b-75d6-4405-a579-f6de35afc062")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 91.44 0)
+			(at 58.42 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,7 +2817,7 @@
 	)
 	(global_label "MISO"
 		(shape input)
-		(at 116.84 93.98 180)
+		(at 58.42 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1827,7 +2826,7 @@
 		)
 		(uuid "e003d3ef-c327-46fe-9f65-8f070d4d4344")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 93.98 0)
+			(at 58.42 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1838,7 +2837,7 @@
 	)
 	(global_label "RXEN"
 		(shape input)
-		(at 119.38 64.77 180)
+		(at 60.96 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1847,7 +2846,7 @@
 		)
 		(uuid "efb9754f-8dee-4096-a050-9a78f1e75750")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.38 64.77 0)
+			(at 60.96 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +2857,7 @@
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 157.48 59.69 0)
+		(at 99.06 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1867,7 +2866,7 @@
 		)
 		(uuid "fc2cd87c-781a-4853-89db-edcfe1337702")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 59.69 0)
+			(at 99.06 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1878,7 +2877,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 91.44 55.88 0)
+		(at 33.02 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1886,7 +2885,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060edd5d6")
 		(property "Reference" "C1"
-			(at 94.361 54.7116 0)
+			(at 35.941 38.2016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1895,7 +2894,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 94.361 57.023 0)
+			(at 35.941 40.513 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,7 +2903,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 92.4052 59.69 0)
+			(at 33.9852 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1913,7 +2912,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 55.88 0)
+			(at 33.02 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1922,7 +2921,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 55.88 0)
+			(at 33.02 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,7 +2936,7 @@
 			(uuid "957aa727-eec2-43b1-bd63-35098698522e")
 		)
 		(instances
-			(project "Board_mikrobus_E28"
+			(project "lc29h_mikrobus_PCB"
 				(path "/a15f8393-41c5-45bb-9399-4aee6cf3113a"
 					(reference "C1")
 					(unit 1)
@@ -1947,7 +2946,7 @@
 	)
 	(symbol
 		(lib_id "Lib_E28-2G4M12-20S:E28")
-		(at 137.16 34.29 0)
+		(at 78.74 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1955,7 +2954,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060ee2742")
 		(property "Reference" "E28_2G4M12-20S1"
-			(at 138.43 40.259 0)
+			(at 80.01 23.749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,7 +2962,7 @@
 			)
 		)
 		(property "Value" "E28"
-			(at 138.43 42.5704 0)
+			(at 80.01 26.0604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,7 +2970,7 @@
 			)
 		)
 		(property "Footprint" "LIB_E28-2G4M12-20S:E28-2G4M12-20S"
-			(at 137.16 41.91 0)
+			(at 78.74 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,7 +2979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 41.91 0)
+			(at 78.74 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1989,7 +2988,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 34.29 0)
+			(at 78.74 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2046,7 +3045,7 @@
 			(uuid "cecd9e6d-2697-4aa6-9359-665a63e4756c")
 		)
 		(instances
-			(project "Board_mikrobus_E28"
+			(project "lc29h_mikrobus_PCB"
 				(path "/a15f8393-41c5-45bb-9399-4aee6cf3113a"
 					(reference "E28_2G4M12-20S1")
 					(unit 1)
@@ -2056,7 +3055,7 @@
 	)
 	(symbol
 		(lib_id "MIKROE-924:MIKROE-924")
-		(at 121.92 83.82 0)
+		(at 63.5 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2064,7 +3063,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f59dc9")
 		(property "Reference" "IC1"
-			(at 137.16 77.089 0)
+			(at 78.74 60.579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2072,7 +3071,7 @@
 			)
 		)
 		(property "Value" "MIKROE-924"
-			(at 137.16 79.4004 0)
+			(at 78.74 62.8904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,7 +3079,7 @@
 			)
 		)
 		(property "Footprint" "MIKROE-924:MIKROE924"
-			(at 148.59 81.28 0)
+			(at 90.17 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2090,7 +3089,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mikroe.com/microsd-click"
-			(at 148.59 83.82 0)
+			(at 90.17 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2099,17 +3098,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 121.92 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Description" "microSD click mikroBUS"
-			(at 148.59 86.36 0)
+			(at 90.17 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,7 +3109,7 @@
 			)
 		)
 		(property "Height" "5"
-			(at 148.59 88.9 0)
+			(at 90.17 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2129,7 +3119,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "MIKROELEKTRONIKA"
-			(at 148.59 91.44 0)
+			(at 90.17 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +3129,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MIKROE-924"
-			(at 148.59 93.98 0)
+			(at 90.17 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2149,7 +3139,7 @@
 			)
 		)
 		(property "Mouser Part Number" "932-MIKROE-924"
-			(at 148.59 96.52 0)
+			(at 90.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2159,7 +3149,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=932-MIKROE-924"
-			(at 148.59 99.06 0)
+			(at 90.17 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2169,7 +3159,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 148.59 101.6 0)
+			(at 90.17 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2179,7 +3169,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 148.59 104.14 0)
+			(at 90.17 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2237,9 +3227,510 @@
 			(uuid "d47c4252-dac4-4145-9847-f39cd64c7603")
 		)
 		(instances
-			(project "Board_mikrobus_E28"
+			(project "lc29h_mikrobus_PCB"
 				(path "/a15f8393-41c5-45bb-9399-4aee6cf3113a"
 					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74LVC1G3157GV_125:74LVC1G3157GV,125")
+		(at 149.86 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ef45114-3e9a-4141-943f-8e42c6e3996a")
+		(property "Reference" "IC4"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G3157GV,125"
+			(at 162.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOP95P275X110-6N"
+			(at 171.45 188.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.in/datasheet/2/916/74LVC1G3157-1318329.pdf"
+			(at 171.45 288.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "74LVC1G3157GV,125"
+			(at 149.86 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 171.45 488.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "NXP"
+			(at 171.45 588.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "74LVC1G3157GV,125"
+			(at 171.45 688.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 171.45 788.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 171.45 888.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 171.45 988.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 171.45 1088.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "3c40fbb4-5731-4c81-8f02-40be9de53bce")
+		)
+		(pin "1"
+			(uuid "9d6f4649-1808-49d4-bf45-aef47304df77")
+		)
+		(pin "2"
+			(uuid "8206d961-e69b-473e-a57e-045337f87020")
+		)
+		(pin "6"
+			(uuid "b94d7639-318e-4c42-9039-e1b160e9fa6e")
+		)
+		(pin "3"
+			(uuid "8ff21df8-407c-4381-9ea1-165aa736e775")
+		)
+		(pin "4"
+			(uuid "5992e5fd-3f10-47c3-9080-28bbd413488a")
+		)
+		(instances
+			(project "lc29h_mikrobus_PCB"
+				(path "/a15f8393-41c5-45bb-9399-4aee6cf3113a"
+					(reference "IC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TXS0108EPWR:TXS0108EPWR")
+		(at 153.67 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30cf036d-62cd-4f30-b568-c3570d283f57")
+		(property "Reference" "IC2"
+			(at 167.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TXS0108EPWR"
+			(at 167.64 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOP65P640X120-20N"
+			(at 177.8 136.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/txs0108e.pdf"
+			(at 177.8 236.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "TXS0108EPWR, Voltage Level Translator, Open Drain 1.2  3.6 V, 1.65  5.5 V 20-Pin TSSOP"
+			(at 153.67 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 177.8 436.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 177.8 536.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TXS0108EPWR"
+			(at 177.8 636.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TXS0108EPWR"
+			(at 177.8 736.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXS0108EPWR?qs=IUbkBnfnSQLgiWtCbWtYOw%3D%3D"
+			(at 177.8 836.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "TXS0108EPWR"
+			(at 177.8 936.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/txs0108epwr/texas-instruments?region=nac"
+			(at 177.8 1036.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "94ec5a4f-514c-4849-a451-37bd52cb4fd9")
+		)
+		(pin "11"
+			(uuid "f4229277-a9ce-495c-9d32-e77cc40e013c")
+		)
+		(pin "10"
+			(uuid "dd745fa3-6f87-4106-999d-1739f21aea19")
+		)
+		(pin "12"
+			(uuid "8922acfc-32de-43f6-b7a2-ed7b5aecbd0f")
+		)
+		(pin "15"
+			(uuid "fcc282c9-9bfb-4ca4-a791-53687b155c5b")
+		)
+		(pin "1"
+			(uuid "3fe7b766-2434-4f79-8fca-2eb76284c79f")
+		)
+		(pin "13"
+			(uuid "bbe8c577-bce7-44b9-b8b3-526c5563356e")
+		)
+		(pin "3"
+			(uuid "a8a5fd43-a7c5-4ad8-af85-5c93bbabd071")
+		)
+		(pin "2"
+			(uuid "aab10ab3-8ba5-48e0-9409-b6e34b04d688")
+		)
+		(pin "16"
+			(uuid "5180ea3a-91da-4933-a62c-9f4877116f2d")
+		)
+		(pin "6"
+			(uuid "d5504984-7c45-4c0a-a42c-a0b5423e09b3")
+		)
+		(pin "4"
+			(uuid "2f9d9cee-1c24-409f-86aa-21b4fbb5c477")
+		)
+		(pin "17"
+			(uuid "fd1c15b4-a18b-4921-ad53-e979555410b0")
+		)
+		(pin "7"
+			(uuid "f61d8378-239c-4a19-be05-591870be81b8")
+		)
+		(pin "5"
+			(uuid "fb4e2975-7696-4a3b-8bb4-bd5258ad1cd6")
+		)
+		(pin "19"
+			(uuid "6ae33fb7-a0ee-48da-8b5f-37bce59a000e")
+		)
+		(pin "9"
+			(uuid "588c613f-353c-4557-b93e-8ba59ff1592c")
+		)
+		(pin "8"
+			(uuid "dd5f3187-4d0d-45f5-8240-874883295766")
+		)
+		(pin "20"
+			(uuid "6afea4a7-3ac7-41a2-8fc3-7f7f9a588e05")
+		)
+		(pin "18"
+			(uuid "c869dc59-c004-4000-aa19-eb776c52a5e3")
+		)
+		(instances
+			(project "lc29h_mikrobus_PCB"
+				(path "/a15f8393-41c5-45bb-9399-4aee6cf3113a"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DS28E36BQ+U:DS28E36BQ+U")
+		(at 194.31 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed1bf991-3a05-42de-9b85-aa28a9cf27f7")
+		(property "Reference" "IC3"
+			(at 209.55 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DS28E36BQ+U"
+			(at 209.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SON95P300X300X80-7N"
+			(at 220.98 180.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/DS28E36/datasheet"
+			(at 220.98 280.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "DeepCover Secure Authenticator"
+			(at 194.31 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 220.98 480.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 220.98 580.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DS28E36BQ+U"
+			(at 220.98 680.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "700-DS28E36BQ+U"
+			(at 220.98 780.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/DS28E36BQ%2bU?qs=vLWxofP3U2xqkxEncXmKPw%3D%3D"
+			(at 220.98 880.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 220.98 980.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 220.98 1080.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "64871972-ad31-42f0-a027-481a7c16c5cb")
+		)
+		(pin "6"
+			(uuid "c05f0772-9288-4ebc-a707-cac8e3eaad9f")
+		)
+		(pin "1"
+			(uuid "25d7e839-2640-42ec-ba9e-cc13e9fb7a2c")
+		)
+		(pin "7"
+			(uuid "0c41352d-a766-4d7a-8d32-456f0a10c8bb")
+		)
+		(pin "4"
+			(uuid "20b867b4-9984-449a-b41e-91527ec14f03")
+		)
+		(pin "5"
+			(uuid "a813776d-5930-4266-891c-d76f0f223d29")
+		)
+		(pin "3"
+			(uuid "1167911a-4835-46fc-af52-0723b8d851e0")
+		)
+		(instances
+			(project "lc29h_mikrobus_PCB"
+				(path "/a15f8393-41c5-45bb-9399-4aee6cf3113a"
+					(reference "IC3")
 					(unit 1)
 				)
 			)

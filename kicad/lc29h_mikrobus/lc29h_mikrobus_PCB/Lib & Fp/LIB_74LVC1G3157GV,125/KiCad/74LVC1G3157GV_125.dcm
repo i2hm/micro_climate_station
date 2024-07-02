@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LVC1G3157GV,125
+D 74LVC1G3157GV,125
+K
+F https://www.mouser.in/datasheet/2/916/74LVC1G3157-1318329.pdf
+$ENDCMP
+#
+#End Doc Library

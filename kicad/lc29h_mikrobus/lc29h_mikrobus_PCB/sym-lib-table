@@ -2,4 +2,7 @@
   (version 7)
   (lib (name "Lib_E28-2G4M12-20S")(type "Legacy")(uri "${KIPRJMOD}/Lib & Fp/LIB_E28-2G4M12-20S/Lib_E28-2G4M12-20S.lib")(options "")(descr ""))
   (lib (name "MIKROE-924")(type "Legacy")(uri "${KIPRJMOD}/Lib & Fp/LIB_MIKROE-924/MIKROE-924/KiCad/MIKROE-924.lib")(options "")(descr ""))
+  (lib (name "TXS0108EPWR")(type "KiCad")(uri "${KIPRJMOD}/Lib & Fp/LIB_TXS0108EPWR/KiCad/TXS0108EPWR.kicad_sym")(options "")(descr ""))
+  (lib (name "DS28E36BQ+U")(type "KiCad")(uri "${KIPRJMOD}/Lib & Fp/LIB_DS28E36BQ+U/KiCad/DS28E36BQ+U.kicad_sym")(options "")(descr ""))
+  (lib (name "74LVC1G3157GV_125")(type "KiCad")(uri "${KIPRJMOD}/Lib & Fp/LIB_74LVC1G3157GV,125/KiCad/74LVC1G3157GV_125.kicad_sym")(options "")(descr ""))
 )

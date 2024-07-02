@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DS28E36BQ+U
+D DeepCover Secure Authenticator
+K
+F https://www.analog.com/DS28E36/datasheet
+$ENDCMP
+#
+#End Doc Library
