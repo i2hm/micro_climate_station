@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMP2165UW-13
+D MOSFET MOSFET BVDSS: 8V~24V SOT323 T&R 10K
+K
+F https://www.diodes.com//assets/Datasheets/DMP2165UW.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -11,4 +11,5 @@
   (lib (name "BC856B-13-F")(type "KiCad")(uri "${KIPRJMOD}/Lib & Fp/LIB_BC856B-13-F/BC856B-13-F.kicad_sym")(options "")(descr ""))
   (lib (name "ESDARF02-1BU2CK")(type "KiCad")(uri "${KIPRJMOD}/Lib & Fp/LIB_ESDARF02-1BU2CK/ESDARF02-1BU2CK.kicad_sym")(options "")(descr ""))
   (lib (name "TXS0102DQER")(type "KiCad")(uri "${KIPRJMOD}/Lib & Fp/LIB_TXS0102DQER/TXS0102DQER.kicad_sym")(options "")(descr ""))
+  (lib (name "DMP2165UW-13")(type "KiCad")(uri "${KIPRJMOD}/Lib & Fp/LIB_DMP2165UW-13/KiCad/DMP2165UW-13.kicad_sym")(options "")(descr ""))
 )

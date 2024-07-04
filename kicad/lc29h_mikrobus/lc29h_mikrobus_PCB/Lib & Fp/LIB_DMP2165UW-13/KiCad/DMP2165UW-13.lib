@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model DMP2165UW-13
+#/1597378/1432581/2.50/3/2/MOSFET (P-Channel)
+DEF DMP2165UW-13 Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "DMP2165UW-13" 450 50 50 H V L CNN
+F2 "SOT65P210X110-3N" 450 -50 50 H I L CNN
+F3 "https://www.diodes.com//assets/Datasheets/DMP2165UW.pdf" 450 -150 50 H I L CNN
+F4 "MOSFET MOSFET BVDSS: 8V~24V SOT323 T&R 10K" 450 -250 50 H I L CNN "Description"
+F5 "1.1" 450 -350 50 H I L CNN "Height"
+F6 "Diodes Incorporated" 450 -450 50 H I L CNN "Manufacturer_Name"
+F7 "DMP2165UW-13" 450 -550 50 H I L CNN "Manufacturer_Part_Number"
+F8 "621-DMP2165UW-13" 450 -650 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DMP2165UW-13?qs=y6ZabgHbY%252BzYzYGpUC%252BOdA%3D%3D" 450 -750 50 H I L CNN "Mouser Price/Stock"
+F10 "DMP2165UW-13" 450 -850 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/dmp2165uw-13/diodes-incorporated" 450 -950 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 3 300 400 100 D 50 50 0 0 P
+X ~ 2 300 -200 100 U 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 80 230 120 N
+C 250 100 150 0 1 10 N
+P 4 0 1 10 300 100 260 120 260 80 300 100 F
+ENDDRAW
+ENDDEF
+#
+#End Library
