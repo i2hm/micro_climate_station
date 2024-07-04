@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC856B-13-F
+D Bipolar Transistors - BJT NPN Small SIG -80V -65V VCEO -5.0 VEBO
+K
+F https://www.diodes.com//assets/Datasheets/ds11207.pdf
+$ENDCMP
+#
+#End Doc Library

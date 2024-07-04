@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESDARF02-1BU2CK
+D STMicroelectronics ESDARF02-1BU2CK Bi-Directional ESD Protection Diode, 20W peak, 2-Pin ST-0201
+K
+F https://www.st.com/resource/en/datasheet/esdarf02-1bu2ck.pdf
+$ENDCMP
+#
+#End Doc Library

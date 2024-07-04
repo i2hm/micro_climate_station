@@ -62,7 +62,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 15.24 180)
+				(at -19.05 15.24 0)
 				(length 2.54)
 				(name "WAKE_UP"
 					(effects
@@ -80,7 +80,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 -10.16 180)
+				(at -19.05 -10.16 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -98,7 +98,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 -12.7 180)
+				(at -19.05 -12.7 0)
 				(length 2.54)
 				(name "RF_IN"
 					(effects
@@ -116,7 +116,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 -15.24 180)
+				(at -19.05 -15.24 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -134,7 +134,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -15.24 0)
+				(at 17.78 -15.24 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -152,7 +152,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -12.7 0)
+				(at 17.78 -12.7 180)
 				(length 2.54)
 				(name "ANT_ON"
 					(effects
@@ -170,7 +170,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -10.16 0)
+				(at 17.78 -10.16 180)
 				(length 2.54)
 				(name "TXD2"
 					(effects
@@ -188,7 +188,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -7.62 0)
+				(at 17.78 -7.62 180)
 				(length 2.54)
 				(name "RXD2"
 					(effects
@@ -206,7 +206,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -5.08 0)
+				(at 17.78 -5.08 180)
 				(length 2.54)
 				(name "WI"
 					(effects
@@ -224,7 +224,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 0 0)
+				(at 17.78 0 180)
 				(length 2.54)
 				(name "I2C_SDA/SPI_CS"
 					(effects
@@ -242,7 +242,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 2.54 0)
+				(at 17.78 2.54 180)
 				(length 2.54)
 				(name "I2C_SCL/SPI_CLK"
 					(effects
@@ -260,7 +260,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 12.7 180)
+				(at -19.05 12.7 0)
 				(length 2.54)
 				(name "FWD"
 					(effects
@@ -278,7 +278,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 5.08 0)
+				(at 17.78 5.08 180)
 				(length 2.54)
 				(name "TXD1/SPI_MISO"
 					(effects
@@ -296,7 +296,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 7.62 0)
+				(at 17.78 7.62 180)
 				(length 2.54)
 				(name "RXD1/SPI_MOSI"
 					(effects
@@ -314,7 +314,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 10.16 0)
+				(at 17.78 10.16 180)
 				(length 2.54)
 				(name "V_BCKP"
 					(effects
@@ -332,7 +332,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 12.7 0)
+				(at 17.78 12.7 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -350,7 +350,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 15.24 0)
+				(at 17.78 15.24 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -368,7 +368,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 10.16 180)
+				(at -19.05 10.16 0)
 				(length 2.54)
 				(name "1PPS"
 					(effects
@@ -386,7 +386,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 7.62 180)
+				(at -19.05 7.62 0)
 				(length 2.54)
 				(name "WHEELTICK"
 					(effects
@@ -404,7 +404,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 5.08 180)
+				(at -19.05 5.08 0)
 				(length 2.54)
 				(name "D_SEL1"
 					(effects
@@ -422,7 +422,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 2.54 180)
+				(at -19.05 2.54 0)
 				(length 2.54)
 				(name "D_SEL2"
 					(effects
@@ -440,7 +440,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 0 180)
+				(at -19.05 0 0)
 				(length 2.54)
 				(name "VDD_EXT"
 					(effects
@@ -458,7 +458,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 -5.08 180)
+				(at -19.05 -5.08 0)
 				(length 2.54)
 				(name "RESET_N"
 					(effects
@@ -476,7 +476,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 -7.62 180)
+				(at -19.05 -7.62 0)
 				(length 2.54)
 				(name "VDD_RF"
 					(effects

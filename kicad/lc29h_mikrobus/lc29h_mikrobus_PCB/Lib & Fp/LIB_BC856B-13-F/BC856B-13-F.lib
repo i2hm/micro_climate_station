@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model BC856B-13-F
+#/1253369/1432577/2.50/3/2/Transistor BJT NPN
+DEF BC856B-13-F Q 0 30 Y Y 1 F N
+F0 "Q" 550 50 50 H V L CNN
+F1 "BC856B-13-F" 550 -50 50 H V L CNN
+F2 "SOT96P240X110-3N" 550 -150 50 H I L CNN
+F3 "https://www.diodes.com//assets/Datasheets/ds11207.pdf" 550 -250 50 H I L CNN
+F4 "Bipolar Transistors - BJT NPN Small SIG -80V -65V VCEO -5.0 VEBO" 550 -350 50 H I L CNN "Description"
+F5 "1.1" 550 -450 50 H I L CNN "Height"
+F6 "Diodes Incorporated" 550 -550 50 H I L CNN "Manufacturer_Name"
+F7 "BC856B-13-F" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+F8 "621-BC856B-13-F" 550 -750 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BC856B-13-F?qs=GWgl%252BsiMZr%2F2r4POaCbFlA%3D%3D" 550 -850 50 H I L CNN "Mouser Price/Stock"
+F10 "BC856B-13-F" 550 -950 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/bc856b-13-f/diodes-incorporated" 550 -1050 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 400 -300 100 U 50 50 0 0 P
+X ~ 3 400 300 100 D 50 50 0 0 P
+P 2 0 1 20 300 100 300 -100 N
+P 2 0 1 6 300 50 400 150 N
+P 2 0 1 6 300 -50 400 -150 N
+P 2 0 1 6 400 -150 400 -200 N
+P 2 0 1 6 400 150 400 200 N
+P 2 0 1 6 100 0 300 0 N
+C 350 0 158 0 1 10 N
+P 4 0 1 10 330 -100 350 -80 370 -120 330 -100 F
+ENDDRAW
+ENDDEF
+#
+#End Library
