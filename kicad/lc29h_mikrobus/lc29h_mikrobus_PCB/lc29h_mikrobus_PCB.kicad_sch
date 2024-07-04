@@ -6030,26 +6030,6 @@
 			)
 		)
 	)
-	(global_label "RX1"
-		(shape output)
-		(at 80.01 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "21ef0841-264c-43ff-8e1e-e1073dcc9e67")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.01 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "mSCL"
 		(shape bidirectional)
 		(at 336.55 52.07 0)
@@ -6418,6 +6398,26 @@
 			)
 		)
 	)
+	(global_label "RX1"
+		(shape output)
+		(at 80.01 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61216217-87e0-4833-a57e-5e8dc4acd385")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CE_HOST"
 		(shape bidirectional)
 		(at 39.37 41.91 180)
@@ -6718,26 +6718,6 @@
 			)
 		)
 	)
-	(global_label "TX1"
-		(shape input)
-		(at 80.01 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a25073bc-80ac-480e-9634-4ac08a83e6a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.01 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RST"
 		(shape bidirectional)
 		(at 396.24 148.59 0)
@@ -6928,6 +6908,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TX1"
+		(shape input)
+		(at 80.01 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dab31c7d-49aa-4f76-ab10-f920715c757c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10658,7 +10658,7 @@
 	)
 	(symbol
 		(lib_id "3000TR:3000TR")
-		(at 275.59 170.18 270)
+		(at 270.51 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10667,7 +10667,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb34b3ec-285a-49d2-b45a-5a5dc2c04d34")
 		(property "Reference" "BT101"
-			(at 279.4 180.3399 90)
+			(at 274.32 170.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10676,7 +10676,7 @@
 			)
 		)
 		(property "Value" "3000TR"
-			(at 279.4 182.8799 90)
+			(at 274.32 172.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10685,7 +10685,7 @@
 			)
 		)
 		(property "Footprint" "3000TR"
-			(at 180.67 189.23 0)
+			(at 175.59 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10695,7 +10695,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.keyelco.com/produchttps://www.mouser.co.za/datasheet/2/215/3000TR-742873.pdft-pdf.cfm?p=777"
-			(at 80.67 189.23 0)
+			(at 75.59 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10705,7 +10705,7 @@
 			)
 		)
 		(property "Description" "Battery Retainer Coin, 12.0mm 1 Cell SMD (SMT) Tab"
-			(at 275.59 170.18 0)
+			(at 270.51 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10714,7 +10714,7 @@
 			)
 		)
 		(property "Height" "3.43"
-			(at -119.33 189.23 0)
+			(at -124.41 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10724,7 +10724,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at -219.33 189.23 0)
+			(at -224.41 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10734,7 +10734,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "3000TR"
-			(at -319.33 189.23 0)
+			(at -324.41 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10744,7 +10744,7 @@
 			)
 		)
 		(property "Mouser Part Number" "534-3000TR"
-			(at -419.33 189.23 0)
+			(at -424.41 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10754,7 +10754,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3000TR?qs=811De8TLL%252BeRUCmGL5ZsKg%3D%3D"
-			(at -519.33 189.23 0)
+			(at -524.41 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10764,7 +10764,7 @@
 			)
 		)
 		(property "Arrow Part Number" "3000TR"
-			(at -619.33 189.23 0)
+			(at -624.41 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10774,7 +10774,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/3000tr/keystone-electronics"
-			(at -719.33 189.23 0)
+			(at -724.41 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11665,7 +11665,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "LC29H"
 			(at 313.055 35.56 0)
 			(effects
 				(font
@@ -11673,7 +11673,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LC29H:LC29HEA"
 			(at 313.69 54.61 0)
 			(effects
 				(font
