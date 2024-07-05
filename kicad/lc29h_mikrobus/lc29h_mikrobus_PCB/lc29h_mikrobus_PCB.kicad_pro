@@ -443,7 +443,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Simulation_SPICE"
+    ]
   },
   "meta": {
     "filename": "lc29h_mikrobus_PCB.kicad_pro",
