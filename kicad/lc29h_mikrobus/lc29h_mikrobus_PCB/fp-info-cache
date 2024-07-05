@@ -1,4 +1,18 @@
-23348326104918875
+23362083814581057
+74LVC1G3157GV_125
+SOP95P275X110-6N
+SOT457
+Integrated Circuit
+0
+6
+6
+3000TR
+3000TR
+3000TR-1
+Battery
+0
+3
+3
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +27,20 @@ audio belton reverb
 0
 7
 7
+BC856B-13-F
+SOT96P240X110-3N
+SOT-23_2024
+Transistor BJT NPN
+0
+3
+3
+BSS123L
+SOT96P237X111-3N
+BSS123L-
+MOSFET (N-Channel)
+0
+3
+3
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -2526,6 +2554,13 @@ speaker CUI
 0
 2
 2
+CSAC-SA45_090-02984-001
+090-02984-001_MCH
+
+090-02984-001 
+0
+9
+9
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -55796,6 +55831,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESDARF02-1BU2CK
+ESDARF021BU2CK
+ESDARF02-1BU2CK-2
+TVS Diode (Bi-directional)
+0
+2
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -62453,6 +62495,13 @@ solder jumper open
 0
 5
 3
+LC29H
+LC29HEA
+
+
+0
+24
+24
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -89333,6 +89382,13 @@ Logo WEEE
 0
 0
 0
+TXS0102DQER
+SON35P100X140X40-8N
+DQE (R-PX2SON-N8)
+Integrated Circuit
+0
+8
+8
 TXS0108EPWR
 SOP65P640X120-20N
 PW
