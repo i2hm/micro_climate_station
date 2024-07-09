@@ -5,8 +5,10 @@
 	(uuid "a15f8393-41c5-45bb-9399-4aee6cf3113a")
 	(paper "A3")
 	(title_block
-		(title "lc29h_mikrobus V1")
+		(title "Quectel LC29H Mikrobus V1")
 		(date "01/07/2024")
+		(company "(c) 2024 - Université Grenoble Alpes - Grenoble INP - LIG + CSUG")
+		(comment 1 "Author : Jihane ZEMMOURA")
 	)
 	(lib_symbols
 		(symbol "3000TR:3000TR"
