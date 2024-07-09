@@ -11,3 +11,5 @@ Its design respects the [Mikrobus form factor](https://download.mikroe.com/docum
 Configuration tool QGNSS https://market.quectel.com/docsdownload/QGNSS_V1.10_EN.zip
 
 [Manuals and documents](../../doc/quectel)
+
+![](lc29h_mikrobus_layers.png)
