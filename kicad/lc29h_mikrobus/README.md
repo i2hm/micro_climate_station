@@ -8,6 +8,8 @@ Its design respects the [Mikrobus form factor](https://download.mikroe.com/docum
 * 8 LC29HBSAMD (base)
 * 25 YG0063AA (antennes) + 3m cable TNC-K (F) to SMA(M) , RG174 cable
 
+[Schematic](schematic.pdf)
+
 Configuration tool QGNSS https://market.quectel.com/docsdownload/QGNSS_V1.10_EN.zip
 
 [Manuals and documents](../../doc/quectel)
