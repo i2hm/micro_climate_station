@@ -14,5 +14,5 @@ Configuration tool QGNSS https://market.quectel.com/docsdownload/QGNSS_V1.10_EN.
 
 [Manuals and documents](../../doc/quectel)
 
-![lc29h](.lc29h.jpg)
+![lc29h](lc29h.jpg)
 ![](lc29h_mikrobus_layers.png)
