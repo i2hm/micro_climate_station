@@ -16,3 +16,4 @@
 
 * Jihane Zemmoura - Université Grenoble Alpes GINP - Phelma
 * Tanguy Chenevas-Paule - Université Grenoble Alpes - PhiTEM M1 MISTRE
+* [Jean-Michel Friedt](https://www.femto-st.fr/fr/personnel-femto/jeanmichelfriedt) - Femto ST
