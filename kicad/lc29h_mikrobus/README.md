@@ -9,7 +9,7 @@ Its design respects the [Mikrobus form factor](https://download.mikroe.com/docum
 Thanks to Quectel for supporting us:
 * 17 LC29HEAMD (rover)
 * 8 LC29HBSAMD (base)
-* 25 YG0063AA (antennes) + 3m cable TNC-K (F) to SMA(M) , RG174 cable
+* 25 YG0063AA (antennas) + 3m cable TNC-K (F) to SMA(M) , RG174 cable
 
 [Schematic](schematic.pdf)
 
