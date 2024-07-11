@@ -79,7 +79,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -19.05 -10.16 0)
 				(length 2.54)
 				(name "GND"
@@ -97,7 +97,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -19.05 -12.7 0)
 				(length 2.54)
 				(name "RF_IN"
@@ -115,7 +115,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -19.05 -15.24 0)
 				(length 2.54)
 				(name "GND"
@@ -133,7 +133,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 17.78 -15.24 180)
 				(length 2.54)
 				(name "GND"
@@ -313,7 +313,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 17.78 10.16 180)
 				(length 2.54)
 				(name "V_BCKP"
@@ -331,7 +331,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 17.78 12.7 180)
 				(length 2.54)
 				(name "VCC"
@@ -349,7 +349,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 17.78 15.24 180)
 				(length 2.54)
 				(name "GND"
@@ -439,7 +439,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -19.05 0 0)
 				(length 2.54)
 				(name "VDD_EXT"
@@ -475,7 +475,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at -19.05 -7.62 0)
 				(length 2.54)
 				(name "VDD_RF"
