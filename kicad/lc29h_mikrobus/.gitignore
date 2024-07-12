@@ -1,3 +1,6 @@
 *-backups/
+~*
+Gerber
+Gerber.zip
 *.bak
 .DS_Store
