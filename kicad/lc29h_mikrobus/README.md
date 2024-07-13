@@ -23,3 +23,4 @@ Configuration tool QGNSS https://market.quectel.com/docsdownload/QGNSS_V1.10_EN.
 ## Misc
 * [TinyGS 2G4 : LoRa 2.4 GHz + GNSS RTK](https://github.com/thingsat/tinygs_2g4station)
 * [Integration of LoRa technology and centimeter-level geo-localization by satellites in GNSS/RTK systems](https://journees-lpwan-2023.liglab.fr/Presentations/poster-RTK-LoRa.pdf) (N. Palix, Univ. Grenoble Alpes)
+* [LC29H hat for RPI](https://www.waveshare.com/wiki/LC29H(XX)_GPS/RTK_HAT)
