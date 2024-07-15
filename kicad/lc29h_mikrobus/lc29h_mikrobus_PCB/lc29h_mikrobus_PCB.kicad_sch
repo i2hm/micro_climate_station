@@ -3597,6 +3597,15 @@
 				)
 			)
 			(property "Description" "microSD click mikroBUS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "microSD click mikroBUS"
 				(at 26.67 -2.54 0)
 				(effects
 					(font
@@ -4804,6 +4813,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 156.21 231.14)
@@ -4876,6 +4981,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59d56e30-582e-4b7e-b4db-ec30421ee42e")
+	)
+	(junction
+		(at 186.69 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a442669-51d7-44f1-9a35-4406064606b0")
 	)
 	(junction
 		(at 153.67 158.75)
@@ -4956,6 +5067,18 @@
 		(uuid "d3e69686-49be-4fcc-9072-ca3aee1e075f")
 	)
 	(junction
+		(at 320.04 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6dfec6d-2221-4717-92fe-b0ee6c67a04a")
+	)
+	(junction
+		(at 168.91 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db39a762-9611-42e0-90dd-0f21eb0aeca2")
+	)
+	(junction
 		(at 147.32 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5032,6 +5155,10 @@
 	(no_connect
 		(at 341.63 97.79)
 		(uuid "8e38c4c0-fa84-4e44-ada6-db7902963c19")
+	)
+	(no_connect
+		(at 270.51 90.17)
+		(uuid "e5bc0e4b-20d7-44e8-a47e-37c1ac0ce7df")
 	)
 	(no_connect
 		(at 354.33 176.53)
@@ -5316,6 +5443,16 @@
 			(type default)
 		)
 		(uuid "264ddbea-a6b2-4c2b-a9af-5cf7f2d6f285")
+	)
+	(wire
+		(pts
+			(xy 312.42 184.15) (xy 320.04 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26bf250e-75ae-480d-9340-ed360b8e7337")
 	)
 	(wire
 		(pts
@@ -6059,7 +6196,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 78.74) (xy 194.31 78.74)
+			(xy 173.99 78.74) (xy 186.69 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6486,6 +6623,16 @@
 			(type default)
 		)
 		(uuid "f19d8150-4d2e-4afb-b4ed-82ff6fab87c4")
+	)
+	(wire
+		(pts
+			(xy 186.69 78.74) (xy 194.31 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3282627-fc22-452a-afa1-592f56aa1190")
 	)
 	(wire
 		(pts
@@ -7688,7 +7835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MIKROE-924:MIKROE924"
+		(property "Footprint" "MIKROE924"
 			(at 80.01 106.68 0)
 			(effects
 				(font
@@ -7780,6 +7927,16 @@
 		)
 		(property "Arrow Price/Stock" ""
 			(at 80.01 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "microSD click mikroBUS"
+			(at 80.01 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10033,6 +10190,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 186.69 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79e40862-6078-4569-8d37-28f033508b65")
+		(property "Reference" "#FLG02"
+			(at 186.69 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 186.69 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 186.69 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8564aaa8-e167-4264-8f9c-30bd2aa66df7")
+		)
+		(instances
+			(project ""
+				(path "/a15f8393-41c5-45bb-9399-4aee6cf3113a"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 214.63 88.9 0)
 		(unit 1)
@@ -10236,6 +10459,72 @@
 			(project "lc29h_mikrobus_PCB"
 				(path "/a15f8393-41c5-45bb-9399-4aee6cf3113a"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 168.91 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85c8a87e-ca9d-497e-9e17-07edb9f92208")
+		(property "Reference" "#FLG01"
+			(at 168.91 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 168.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 168.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a87a4a70-16b9-4495-90e0-7d8badc163b6")
+		)
+		(instances
+			(project ""
+				(path "/a15f8393-41c5-45bb-9399-4aee6cf3113a"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -11085,6 +11374,72 @@
 			(project "lc29h_mikrobus_PCB"
 				(path "/a15f8393-41c5-45bb-9399-4aee6cf3113a"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 312.42 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae60fff2-a4eb-4e10-998c-d4c357b5c7fb")
+		(property "Reference" "#FLG03"
+			(at 312.42 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 312.42 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 312.42 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 312.42 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 312.42 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8be5db9-7bad-4b50-b978-3687ad2b877b")
+		)
+		(instances
+			(project ""
+				(path "/a15f8393-41c5-45bb-9399-4aee6cf3113a"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
