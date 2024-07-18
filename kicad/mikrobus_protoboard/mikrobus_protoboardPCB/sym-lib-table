@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MIKROE-924")(type "KiCad")(uri "${KIPRJMOD}/library/NEW_LIB_MIKROE-924.kicad_sym")(options "")(descr ""))
+)
