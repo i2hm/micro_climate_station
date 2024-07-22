@@ -76,7 +76,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "RPi_Hat.kicad_prl",
+    "filename": "mikrobus_x1_hatPCB.kicad_prl",
     "version": 3
   },
   "project": {
