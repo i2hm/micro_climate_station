@@ -1,0 +1,37 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MCP3204-CI_P
+#/250457/1432581/2.50/14/3/Integrated Circuit
+DEF MCP3204-CI_P IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "MCP3204-CI_P" 1150 200 50 H V L CNN
+F2 "DIP781W56P254L1918H533Q14N" 1150 100 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/3792465" 1150 0 50 H I L CNN
+F4 "A/D Converters" 1150 -100 50 H I L CNN "Description"
+F5 "5.334" 1150 -200 50 H I L CNN "Height"
+F6 "Microchip" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MCP3204-CI/P" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "579-MCP3204-CI/P" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP3204-CI-P?qs=2HbNQnvoB68kwk3wWNZeWA%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "MCP3204-CI/P" 1150 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mcp3204-cip/microchip-technology?region=nac" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X CH0 1 0 0 200 R 50 50 0 0 P
+X CH1 2 0 -100 200 R 50 50 0 0 P
+X CH2 3 0 -200 200 R 50 50 0 0 P
+X CH3 4 0 -300 200 R 50 50 0 0 P
+X NC_1 5 0 -400 200 R 50 50 0 0 P
+X NC_2 6 0 -500 200 R 50 50 0 0 P
+X DGND 7 0 -600 200 R 50 50 0 0 P
+X VDD 14 1300 0 200 L 50 50 0 0 P
+X VREF 13 1300 -100 200 L 50 50 0 0 P
+X AGND 12 1300 -200 200 L 50 50 0 0 P
+X CLK 11 1300 -300 200 L 50 50 0 0 P
+X DOUT 10 1300 -400 200 L 50 50 0 0 P
+X DIN 9 1300 -500 200 L 50 50 0 0 P
+X ~CS~/SHDN 8 1300 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
