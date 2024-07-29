@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP TXB0106PWR
-D 6-Bit Bidirectional Voltage-Level Translator with Auto Direction Sensing and +/-15-kV ESD Protect
-K
-F http://www.ti.com/lit/ds/symlink/txb0106.pdf
-$ENDCMP
-#
-#End Doc Library

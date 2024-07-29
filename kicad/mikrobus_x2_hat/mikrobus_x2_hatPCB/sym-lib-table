@@ -2,8 +2,4 @@
   (version 7)
   (lib (name "MIKROE-924")(type "KiCad")(uri "${KIPRJMOD}/library/NEW_LIB_MIKROE-924.kicad_sym")(options "")(descr ""))
   (lib (name "RPi_HAT")(type "Legacy")(uri "${KIPRJMOD}/library/RPi_HAT.lib")(options "")(descr ""))
-  (lib (name "MCP3204")(type "KiCad")(uri "${KIPRJMOD}/library/MCP3204-CI_P/KiCad/MCP3204-CI_P.kicad_sym")(options "")(descr ""))
-  (lib (name "TXB0106")(type "KiCad")(uri "${KIPRJMOD}/library/TXB0106PWR/KiCad/TXB0106PWR.kicad_sym")(options "")(descr ""))
-  (lib (name "CAS-D20TA")(type "KiCad")(uri "${KIPRJMOD}/library/CAS-D20TA.kicad_sym")(options "")(descr ""))
-  (lib (name "MCP1541")(type "KiCad")(uri "${KIPRJMOD}/library/MCP1541.kicad_sym")(options "")(descr ""))
 )
