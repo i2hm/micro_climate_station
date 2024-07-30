@@ -1,5 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "MIKROE-924")(type "KiCad")(uri "${KIPRJMOD}/library/KiCad")(options "")(descr ""))
-  (lib (name "MCP3204")(type "KiCad")(uri "${KIPRJMOD}/library/MCP3204-CI_P/KiCad")(options "")(descr ""))
+  (lib (name "logo")(type "KiCad")(uri "${KIPRJMOD}/library/logo.pretty")(options "")(descr ""))
 )

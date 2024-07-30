@@ -794,10 +794,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "meta/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "mikrobus_x1_hatPCB.step",
       "svg": "",
       "vrml": ""
     },

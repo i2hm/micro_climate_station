@@ -1,4 +1,4 @@
-23338008571666798
+23338009094224757
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -63636,13 +63636,6 @@ Yellow 5381 Series LED
 0
 2
 2
-MCP3204
-DIP781W56P254L1918H533Q14N
-PDIP 14
-Integrated Circuit
-0
-14
-14
 MIKROE-924
 MIKROE924
 MIKROE-924-2
@@ -95353,3 +95346,10 @@ Varistor VF
 0
 2
 2
+logo
+mikro_logo
+
+
+0
+0
+0
