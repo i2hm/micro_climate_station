@@ -683,7 +683,7 @@
 		(uuid "00000000-0000-0000-0000-000055174a29")
 		(at 147.86 75.3178 90)
 		(property "Reference" "J1"
-			(at -5 -24 270)
+			(at -5 -24 -90)
 			(layer "F.SilkS")
 			(uuid "0b9125f5-1c51-4069-877f-5f403a220e4c")
 			(effects
@@ -694,7 +694,7 @@
 			)
 		)
 		(property "Value" "RPi_GPIO"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "F.Fab")
 			(uuid "06793432-7175-4e78-add7-88eb0b8af6d8")
 			(effects
@@ -1446,7 +1446,7 @@
 		(descr "MIKROE-924-2")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC1"
-			(at 11.43 6.48 180)
+			(at 11.43 6.48 -90)
 			(layer "F.SilkS")
 			(uuid "335b6089-03d2-4e7b-9410-53b2d6f7df38")
 			(effects
@@ -1957,6 +1957,7 @@
 		(property "Reference" "G***"
 			(at 0 0 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "76996d62-66d9-4f09-b0d6-f2a21a19ebc8")
 			(effects
 				(font
