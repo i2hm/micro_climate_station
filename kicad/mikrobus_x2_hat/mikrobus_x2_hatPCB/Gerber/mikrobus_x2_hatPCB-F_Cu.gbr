@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.2*%
-%TF.CreationDate,2024-07-30T13:50:33+02:00*%
+%TF.CreationDate,2024-07-30T14:23:00+02:00*%
 %TF.ProjectId,mikrobus_x2_hatPCB,6d696b72-6f62-4757-935f-78325f686174,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L1,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.2) date 2024-07-30 13:50:33*
+G04 Created by KiCad (PCBNEW 8.0.2) date 2024-07-30 14:23:00*
 %MOMM*%
 %LPD*%
 G01*
