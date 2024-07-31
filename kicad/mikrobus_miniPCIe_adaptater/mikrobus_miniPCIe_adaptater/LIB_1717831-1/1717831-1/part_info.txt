@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=1717831-1
+PartCategory=Connector
+PackageCategory=Other
+PinCount=54
+Version=2.3
+Released=2019-01-16 16:19:23
+Downloaded=2024-07-31 09:54:09
+3D=Y
