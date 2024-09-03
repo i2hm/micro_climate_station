@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "a99fed88-f034-4197-b21b-fe95ec07e5f4")
 	(paper "A4")
+	(title_block
+		(title "Mikrobus Pi Hat x2")
+		(date "2024-09-03")
+		(rev "v1.1")
+	)
 	(lib_symbols
 		(symbol "MIKROE-924:MIKROE-924"
 			(pin_names

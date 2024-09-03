@@ -7,6 +7,11 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Mikrobus Pi Hat x2")
+		(date "2024-09-03")
+		(rev "v1.1")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
@@ -142,6 +147,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -154,6 +160,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -166,6 +173,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -286,6 +294,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -298,6 +307,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -310,6 +320,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -430,6 +441,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -442,6 +454,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -454,6 +467,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -574,6 +588,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -586,6 +601,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -598,6 +614,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -713,6 +730,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -725,6 +743,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -737,6 +756,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1476,6 +1496,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1488,6 +1509,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1500,6 +1522,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1748,6 +1771,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1760,6 +1784,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1772,6 +1797,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2259,6 +2285,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2271,6 +2298,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2283,6 +2311,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2769,6 +2798,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2781,6 +2811,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2793,6 +2824,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3171,7 +3203,7 @@
 		(layer "Edge.Cuts")
 		(uuid "c24e0e11-d715-4f28-979c-c3e09b8bc9f2")
 	)
-	(gr_text "CS/GP8"
+	(gr_text "CS/GP07"
 		(at 125.79 99.74 0)
 		(layer "F.SilkS")
 		(uuid "013d2ed0-3b87-45a9-b697-58bb63f706d1")
@@ -3183,7 +3215,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GP22"
+	(gr_text "AN/GP04"
 		(at 154.65 94.96 0)
 		(layer "F.SilkS")
 		(uuid "01c9160e-2f1c-409b-a673-a4ff14ece248")
@@ -3195,7 +3227,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GP3(1)/SCL"
+	(gr_text "GP03/SCL"
 		(at 165.82 105.14 0)
 		(layer "F.SilkS")
 		(uuid "02e28027-a3c7-4371-9818-8d1033ce8ed2")
@@ -3231,7 +3263,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GP17/INT"
+	(gr_text "GP26/INT"
 		(at 138.22 97.24 0)
 		(layer "F.SilkS")
 		(uuid "287ae985-7f25-4a52-9ee1-f89137506737")
@@ -3255,7 +3287,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GP18/PWM"
+	(gr_text "GP17/PWM"
 		(at 137.63 94.75 0)
 		(layer "F.SilkS")
 		(uuid "2e411cb2-950c-483f-a25e-b3a29d5d3058")
@@ -3303,7 +3335,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "CS/GP8"
+	(gr_text "CS/GP08"
 		(at 154.69 99.9 0)
 		(layer "F.SilkS")
 		(uuid "448e1853-46fd-496e-a450-7b9d3cbd5a1b")
@@ -3327,7 +3359,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GP17/INT"
+	(gr_text "GP06/INT"
 		(at 167.12 97.4 0)
 		(layer "F.SilkS")
 		(uuid "4bd65fd7-4c7d-4945-97b1-e5e370c685f2")
@@ -3411,7 +3443,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "RST/GP4"
+	(gr_text "RST/GP19"
 		(at 125.79 97.5 0)
 		(layer "F.SilkS")
 		(uuid "6ccc581a-3ac7-40be-b401-31bf9556528a")
@@ -3447,7 +3479,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GP3(1)/SCL"
+	(gr_text "GP03/SCL"
 		(at 136.92 104.98 0)
 		(layer "F.SilkS")
 		(uuid "94650134-4769-4a7c-91f0-f25875c4e76f")
@@ -3471,7 +3503,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "MISO/GP9"
+	(gr_text "MISO/GP09"
 		(at 125.66 104.87 0)
 		(layer "F.SilkS")
 		(uuid "9ca78ba9-e1c1-4a54-8f5d-95f2200ef081")
@@ -3495,7 +3527,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GP2(0)/SDA"
+	(gr_text "GP02/SDA"
 		(at 165.66 107.58 0)
 		(layer "F.SilkS")
 		(uuid "bb4348fc-0150-4ae6-a9d6-bccb61fcf334")
@@ -3519,7 +3551,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GP22"
+	(gr_text "AN/GP13"
 		(at 125.64 94.38 0)
 		(layer "F.SilkS")
 		(uuid "cc0fb0e9-05f4-410d-8248-a8e5d008a57f")
@@ -3531,7 +3563,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GP2(0)/SDA"
+	(gr_text "GP02/SDA"
 		(at 136.76 107.42 0)
 		(layer "F.SilkS")
 		(uuid "d8cd40d5-e376-421d-8bdd-459ef3975f51")
@@ -3567,7 +3599,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "RST/GP4"
+	(gr_text "RST/GP05"
 		(at 154.69 97.66 0)
 		(layer "F.SilkS")
 		(uuid "fdf6a6fd-2445-416d-8856-85acc3834869")
