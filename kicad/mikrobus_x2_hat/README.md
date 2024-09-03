@@ -8,3 +8,5 @@
 * [ ] add 4 Grove connectors for 1 UART, 1 GPIO and 2 I2C
 * [ ] add selector for 3V3 or 5V0 on Grove connectors
 
+![](mikrobus_x2_hat.png)
+
