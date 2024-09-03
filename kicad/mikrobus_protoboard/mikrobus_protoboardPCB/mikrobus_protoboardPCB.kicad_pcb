@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Mikrobus Protoboard")
+		(date "2024-09-03")
+		(rev "v1.1")
+		(company "Université Grenoble Alpes - CSUG LIG")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
@@ -441,7 +447,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "TX"
+	(gr_text "RX"
 		(at 163.66 93.85 90)
 		(layer "F.SilkS")
 		(uuid "20474926-b59c-4aa3-9be8-b01c821a6f85")
@@ -467,7 +473,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "PWD"
+	(gr_text "PWM"
 		(at 163.61 86.68 90)
 		(layer "F.SilkS")
 		(uuid "3cef826d-1d21-43c1-894a-3a35c6c76870")
@@ -597,7 +603,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "RX"
+	(gr_text "TX"
 		(at 163.69 91.29 90)
 		(layer "F.SilkS")
 		(uuid "e07f6e24-72a1-4e8f-b6e4-19f3eacfdffd")
