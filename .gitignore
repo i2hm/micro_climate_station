@@ -1,4 +1,8 @@
 .DS_Store
+*-backups/
+Gerber.zip
+GERBER/
+Gerber/
 
 
 kicad/rak3172_board/fp-info-cache
