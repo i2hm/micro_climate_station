@@ -12,3 +12,5 @@ This expansion board features 2 Mikrobus footprints and 6 Grove footprints (I2C 
 ## References
 * https://download.mikroe.com/documents/standards/mikrobus/mikrobus-standard-specification-v200.pdf 
 * https://github.com/csu-grenoble/flatsat/tree/main/Hardware/2U-PCB-TinyGS
+* https://github.com/lomalkin/flipperzero-protoboards-kicad
+* https://github.com/Speexvocon/FlipperZeroKiCadPart
