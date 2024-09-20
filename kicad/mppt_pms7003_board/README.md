@@ -3,8 +3,8 @@
 This board is an extension board for adding air quality monitoring to the [Microclimate station board](../rak3172_board/README.md).
 
 It includes :
-* a 10 pin connector for a [Plantower PMS7003 Particulate Matter sensor](https://www.plantower.com/en/products_33/76.html)
-* a 4-channel I2C ADC ([ADS1115](https://www.ti.com/product/ADS1115))
+* a 10-pin connector for a [Plantower PMS7003 Particulate Matter sensor](https://www.plantower.com/en/products_33/76.html)
+* a 4-channel I2C ADC ([ADS1115](https://www.ti.com/product/ADS1115)) for analog sensors such as PT100, PT1000 ...
 * a JST connector for a LiPo battery
 * a JST connector for a solar panel
 * a optional connector for a [Plantower PMS9003M Particulate Matter sensor](https://www.plantower.com/en/products_33/99.html)
