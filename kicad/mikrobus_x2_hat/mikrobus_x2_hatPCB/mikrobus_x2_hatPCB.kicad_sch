@@ -3461,7 +3461,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 207.01 63.5 0)
 			(effects
 				(font
@@ -3845,7 +3845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 184.15 63.5 0)
 			(effects
 				(font
@@ -3916,7 +3916,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MIKROE-924:MIKROE924"
+		(property "Footprint" "footprint:MIKROE924"
 			(at 229.87 85.09 0)
 			(effects
 				(font
@@ -4241,7 +4241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MIKROE-924:MIKROE924"
+		(property "Footprint" "footprint:MIKROE924"
 			(at 85.09 86.36 0)
 			(effects
 				(font
