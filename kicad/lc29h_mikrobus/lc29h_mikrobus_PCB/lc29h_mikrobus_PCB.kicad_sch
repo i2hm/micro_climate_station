@@ -4736,6 +4736,12 @@
 		(uuid "9fe8cda1-a750-422b-9ada-c6dadfabeaa3")
 	)
 	(junction
+		(at 83.82 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a295b6da-e159-4deb-9d35-ca3c6f3797b5")
+	)
+	(junction
 		(at 162.56 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4746,6 +4752,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af3e3d29-f9e7-472a-b569-a00cd42954d8")
+	)
+	(junction
+		(at 274.32 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b063a671-38a9-4be2-ac4e-ec71bf053955")
 	)
 	(junction
 		(at 151.13 146.05)
@@ -5433,6 +5445,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 104.14) (xy 81.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf97c63-59e6-4c64-ad50-839ed2dbf68b")
+	)
+	(wire
+		(pts
 			(xy 114.3 257.81) (xy 114.3 251.46)
 		)
 		(stroke
@@ -5480,6 +5502,16 @@
 			(type default)
 		)
 		(uuid "6809238e-0c93-4719-b447-c1f62fa70aaf")
+	)
+	(wire
+		(pts
+			(xy 83.82 93.98) (xy 83.82 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a58578b-d40d-400d-b728-3b8bd2407b35")
 	)
 	(wire
 		(pts
@@ -5550,6 +5582,16 @@
 			(type default)
 		)
 		(uuid "7777a803-60ac-4684-98ac-6386511485ae")
+	)
+	(wire
+		(pts
+			(xy 83.82 102.87) (xy 83.82 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782e8d54-dc3e-48c3-b72c-67805dd80623")
 	)
 	(wire
 		(pts
@@ -5653,7 +5695,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 104.14) (xy 81.28 104.14)
+			(xy 86.36 104.14) (xy 83.82 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6203,6 +6245,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 92.71) (xy 266.7 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c936f3-1dfd-4335-aa26-7f8ad8cec6ec")
+	)
+	(wire
+		(pts
 			(xy 168.91 100.33) (xy 168.91 102.87)
 		)
 		(stroke
@@ -6280,6 +6332,16 @@
 			(type default)
 		)
 		(uuid "e08bc0a9-bc26-4644-bae5-7f9818114935")
+	)
+	(wire
+		(pts
+			(xy 87.63 93.98) (xy 83.82 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1f3e20c-be02-4785-bb51-542e88a54cf2")
 	)
 	(wire
 		(pts
@@ -6499,6 +6561,16 @@
 		)
 		(uuid "86c0526a-bba7-469e-89b0-e3794525ec4d")
 	)
+	(text "pull up reset"
+		(exclude_from_sim no)
+		(at 262.382 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "92083575-a782-4773-bce3-ea5070294221")
+	)
 	(text "stty -F /dev/ttyUSB3 460800 && cat < /dev/ttyUSB3"
 		(exclude_from_sim no)
 		(at 120.396 110.998 0)
@@ -6511,7 +6583,7 @@
 	)
 	(text "MIKROBUS Socket"
 		(exclude_from_sim no)
-		(at 65.786 91.44 0)
+		(at 66.294 86.614 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -6554,6 +6626,16 @@
 			)
 		)
 		(uuid "e65bf7c9-9317-4473-ab57-3a2a305a789c")
+	)
+	(text "pull up wakeup"
+		(exclude_from_sim no)
+		(at 92.71 96.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8b3ba01-17a2-4bce-be1d-fd9908e17db3")
 	)
 	(global_label "mSCL"
 		(shape bidirectional)
@@ -6617,6 +6699,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape output)
+		(at 87.63 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "12bd3831-776f-495f-9bc4-9e8b509d42d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7223,6 +7325,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 261.62 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9fbe404c-a002-4915-9e8f-1fe7d8b68765")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.6604 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8607,6 +8731,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 83.82 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3539c085-8a8a-4e9c-9a76-88109c3ee853")
+		(property "Reference" "R20"
+			(at 77.724 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 78.486 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 82.042 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e078f67-68e8-4d3a-8313-ab556b969656")
+		)
+		(pin "1"
+			(uuid "fc64796d-7fce-4afc-8789-da705a492902")
+		)
+		(instances
+			(project "lc29h_mikrobus_PCB"
+				(path "/a15f8393-41c5-45bb-9399-4aee6cf3113a"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NEW_LIB_LC29H:LC29H")
 		(at 318.77 87.63 0)
 		(unit 1)
@@ -8823,7 +9016,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 359.41 99.822 90)
 			(effects
 				(font
@@ -9354,6 +9547,75 @@
 			(project "lc29h_mikrobus_PCB"
 				(path "/a15f8393-41c5-45bb-9399-4aee6cf3113a"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 270.51 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c6f501b-da4b-468f-89d1-a0c2881fa42b")
+		(property "Reference" "R21"
+			(at 273.05 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 272.542 94.996 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 270.51 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 270.51 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df8629ea-3741-4072-a3ae-4cdceb395687")
+		)
+		(pin "1"
+			(uuid "361d8b2d-32fd-4d89-81df-f58da19df525")
+		)
+		(instances
+			(project "lc29h_mikrobus_PCB"
+				(path "/a15f8393-41c5-45bb-9399-4aee6cf3113a"
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -11685,7 +11947,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 359.41 93.218 90)
 			(effects
 				(font
@@ -11823,7 +12085,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "10k"
 			(at 258.572 115.316 90)
 			(effects
 				(font
