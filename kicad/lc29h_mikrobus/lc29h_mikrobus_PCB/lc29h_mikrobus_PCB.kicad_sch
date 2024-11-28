@@ -443,280 +443,6 @@
 				)
 			)
 		)
-		(symbol "BC856B-13-F:BC856B-13-F"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 13.97 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "BC856B-13-F"
-				(at 13.97 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOT96P240X110-3N"
-				(at 13.97 -101.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/ds11207.pdf"
-				(at 13.97 -201.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Bipolar Transistors - BJT NPN Small SIG -80V -65V VCEO -5.0 VEBO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.1"
-				(at 13.97 -401.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Diodes Incorporated"
-				(at 13.97 -501.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "BC856B-13-F"
-				(at 13.97 -601.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "621-BC856B-13-F"
-				(at 13.97 -701.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BC856B-13-F?qs=GWgl%252BsiMZr%2F2r4POaCbFlA%3D%3D"
-				(at 13.97 -801.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "BC856B-13-F"
-				(at 13.97 -901.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bc856b-13-f/diodes-incorporated"
-				(at 13.97 -1001.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "BC856B-13-F_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -1.27) (xy 10.16 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 1.27) (xy 10.16 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -3.81) (xy 10.16 -5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 3.81) (xy 10.16 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.382 -2.54) (xy 8.89 -2.032) (xy 9.398 -3.048) (xy 8.382 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 8.89 0)
-					(radius 4.016)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -7.62 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 7.62 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "BSS123L:BSS123L"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -4169,7 +3895,7 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:PN2222A"
+		(symbol "Transistor_BJT:MMBT2222A"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -4184,7 +3910,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PN2222A"
+			(property "Value" "MMBT2222A"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -4193,7 +3919,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -4204,7 +3930,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4214,7 +3940,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92"
+			(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4232,7 +3958,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4241,10 +3967,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "PN2222A_0_1"
+			(symbol "MMBT2222A_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0.635 0)
+						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -4256,19 +3982,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 0.635 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 0.635 0.635)
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -4292,19 +4006,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.413 -2.413) (xy 1.905 -1.905) (xy 1.905 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.143 -1.651) (xy 1.651 -1.143) (xy 2.159 -2.159) (xy 1.143 -1.651) (xy 1.143 -1.651)
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -4326,11 +4028,11 @@
 					)
 				)
 			)
-			(symbol "PN2222A_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
+			(symbol "MMBT2222A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4345,10 +4047,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.08)
-					(name "B"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5881,7 +5583,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 105.41) (xy 274.32 92.71)
+			(xy 274.32 92.71) (xy 274.32 107.95)
 		)
 		(stroke
 			(width 0)
@@ -6111,7 +5813,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 113.03) (xy 264.16 113.03)
+			(xy 260.35 113.03) (xy 266.7 113.03)
 		)
 		(stroke
 			(width 0)
@@ -6418,6 +6120,16 @@
 			(type default)
 		)
 		(uuid "c2b94847-0b33-443a-acc7-71a4b380228d")
+	)
+	(wire
+		(pts
+			(xy 274.32 118.11) (xy 274.32 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3ddc2e7-e1e7-46de-aa2f-aecb3cec50d3")
 	)
 	(wire
 		(pts
@@ -6786,6 +6498,16 @@
 			)
 		)
 		(uuid "86c0526a-bba7-469e-89b0-e3794525ec4d")
+	)
+	(text "stty -F /dev/ttyUSB3 460800 && cat < /dev/ttyUSB3"
+		(exclude_from_sim no)
+		(at 120.396 110.998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b11fa877-dda1-47ff-a9f5-4e483424afe3")
 	)
 	(text "MIKROBUS Socket"
 		(exclude_from_sim no)
@@ -7832,7 +7554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 97.282 232.41 90)
 			(effects
 				(font
@@ -7901,7 +7623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 132.08 227.838 90)
 			(effects
 				(font
@@ -8094,7 +7816,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 185.928 81.534 0)
 			(effects
 				(font
@@ -8103,7 +7825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 189.992 80.01 90)
 			(effects
 				(font
@@ -8242,7 +7964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MIKROE924"
+		(property "Footprint" "MIKROE-924:MIKROE924"
 			(at 77.47 101.6 0)
 			(effects
 				(font
@@ -8503,7 +8225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 140.6652 153.67 0)
 			(effects
 				(font
@@ -8641,7 +8363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 101.092 251.46 90)
 			(effects
 				(font
@@ -8701,7 +8423,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 194.056 81.28 0)
 			(effects
 				(font
@@ -8710,7 +8432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 197.612 80.01 90)
 			(effects
 				(font
@@ -9109,7 +8831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 359.41 99.568 90)
 			(effects
 				(font
@@ -9179,7 +8901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 311.912 163.83 90)
 			(effects
 				(font
@@ -9249,7 +8971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 163.5252 153.67 0)
 			(effects
 				(font
@@ -9383,7 +9105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 161.29 226.06 0)
 			(effects
 				(font
@@ -9664,7 +9386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 213.0552 83.82 0)
 			(effects
 				(font
@@ -9733,7 +9455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 126.6952 76.2 0)
 			(effects
 				(font
@@ -9871,7 +9593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 361.6452 180.34 0)
 			(effects
 				(font
@@ -10007,7 +9729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 360.172 210.82 90)
 			(effects
 				(font
@@ -10209,7 +9931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 161.29 205.4352 0)
 			(effects
 				(font
@@ -10278,7 +10000,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 116.332 72.39 90)
 			(effects
 				(font
@@ -10586,82 +10308,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:PN2222A")
-		(at 111.76 246.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83d3f315-70a8-4b08-adcf-ec22274e3fe2")
-		(property "Reference" "Q1"
-			(at 116.84 245.1099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PN2222A"
-			(at 116.84 247.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 116.84 248.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/PN2222-D.PDF"
-			(at 111.76 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92"
-			(at 111.76 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8754271f-cf3f-4b17-b758-70a3f18ce50d")
-		)
-		(pin "2"
-			(uuid "c8615da0-1fd0-41d4-a72c-c3b99b7f4123")
-		)
-		(pin "3"
-			(uuid "92f908ab-a479-4ef9-b0e2-32f5ecf88927")
-		)
-		(instances
-			(project "lc29h_mikrobus_PCB"
-				(path "/a15f8393-41c5-45bb-9399-4aee6cf3113a"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 64.77 160.02 0)
 		(unit 1)
@@ -10688,7 +10334,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 62.992 160.02 90)
 			(effects
 				(font
@@ -10900,7 +10546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 141.9352 236.22 0)
 			(effects
 				(font
@@ -10943,17 +10589,17 @@
 		)
 	)
 	(symbol
-		(lib_id "BC856B-13-F:BC856B-13-F")
-		(at 264.16 113.03 0)
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 271.78 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "987002ba-1402-447c-b56f-ea1780783e0b")
-		(property "Reference" "Q3"
-			(at 278.13 111.7599 0)
+		(uuid "9ecefbe5-1ae3-45d0-8ee3-53b2c4046795")
+		(property "Reference" "Q1"
+			(at 276.86 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10961,8 +10607,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC856B-13-F"
-			(at 278.13 114.2999 0)
+		(property "Value" "MMBT2222A"
+			(at 276.86 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10970,118 +10616,49 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BC856B-13-F:SOT96P240X110-3N"
-			(at 278.13 214.3 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 276.86 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 271.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/ds11207.pdf"
-			(at 278.13 314.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bipolar Transistors - BJT NPN Small SIG -80V -65V VCEO -5.0 VEBO"
-			(at 264.16 113.03 0)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 271.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Height" "1.1"
-			(at 278.13 514.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 278.13 614.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BC856B-13-F"
-			(at 278.13 714.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-BC856B-13-F"
-			(at 278.13 814.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BC856B-13-F?qs=GWgl%252BsiMZr%2F2r4POaCbFlA%3D%3D"
-			(at 278.13 914.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "BC856B-13-F"
-			(at 278.13 1014.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bc856b-13-f/diodes-incorporated"
-			(at 278.13 1114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7958c5ae-1518-4410-9528-0230b6f9a6e9")
 		)
 		(pin "2"
-			(uuid "9b41543f-f3f6-48d6-bce7-4327e7f4d13f")
+			(uuid "9b520bb3-3f03-46b4-83fe-319a69b82019")
 		)
 		(pin "3"
-			(uuid "ab3dbfe2-cab4-4cd3-bb5b-97226829f8c5")
+			(uuid "0f990215-4d08-4ffa-970e-f01cb6b057e4")
+		)
+		(pin "1"
+			(uuid "312e4594-2fbd-472f-84e2-510e582ccfc6")
 		)
 		(instances
 			(project "lc29h_mikrobus_PCB"
 				(path "/a15f8393-41c5-45bb-9399-4aee6cf3113a"
-					(reference "Q3")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -11313,7 +10890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 289.56 205.232 90)
 			(effects
 				(font
@@ -11482,6 +11059,82 @@
 			(project "lc29h_mikrobus_PCB"
 				(path "/a15f8393-41c5-45bb-9399-4aee6cf3113a"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 111.76 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bda44be7-3b9e-4b3a-8755-f8c971b4c081")
+		(property "Reference" "Q6"
+			(at 116.84 245.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 116.84 247.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 116.84 248.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 111.76 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 111.76 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c1f8187f-660a-43d0-8e3c-bec2f1f18d84")
+		)
+		(pin "3"
+			(uuid "b658d3ee-06e8-4367-819a-ca6d9095a6c3")
+		)
+		(pin "1"
+			(uuid "a93bc21c-3e03-4ec7-8038-1be98c581981")
+		)
+		(instances
+			(project ""
+				(path "/a15f8393-41c5-45bb-9399-4aee6cf3113a"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -11664,7 +11317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 93.98 248.158 90)
 			(effects
 				(font
@@ -11876,7 +11529,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 138.938 77.724 0)
 			(effects
 				(font
@@ -11885,7 +11538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 143.002 76.2 90)
 			(effects
 				(font
@@ -12040,7 +11693,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 359.41 97.028 90)
 			(effects
 				(font
@@ -12110,7 +11763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 152.0952 153.67 0)
 			(effects
 				(font
@@ -12179,7 +11832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 256.54 114.808 90)
 			(effects
 				(font
@@ -12239,7 +11892,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "10k"
 			(at 147.066 77.47 0)
 			(effects
 				(font
@@ -12248,7 +11901,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 150.622 76.2 90)
 			(effects
 				(font
@@ -12595,7 +12248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 258.572 76.2 90)
 			(effects
 				(font
@@ -13164,7 +12817,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 189.23 147.828 90)
 			(effects
 				(font
@@ -13233,7 +12886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 154.6352 236.22 0)
 			(effects
 				(font

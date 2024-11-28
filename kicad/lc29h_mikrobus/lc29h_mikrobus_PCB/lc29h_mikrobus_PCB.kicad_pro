@@ -80,6 +80,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -121,11 +122,11 @@
         "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.025,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.15,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -455,8 +456,8 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.18,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -472,8 +473,8 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.18,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -596,6 +597,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -695,7 +697,7 @@
   "sheets": [
     [
       "a15f8393-41c5-45bb-9399-4aee6cf3113a",
-      "Racine"
+      "Root"
     ]
   ],
   "text_variables": {}
