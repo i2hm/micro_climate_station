@@ -13,7 +13,9 @@ Thanks to Quectel for supporting us:
 
 [Schematic](schematic.pdf)
 
-Configuration tool QGNSS https://market.quectel.com/docsdownload/QGNSS_V1.10_EN.zip
+Configuration tool QGNSS :
+* https://market.quectel.com/docsdownload/QGNSS_V1.10_EN.zip
+* https://github.com/quectel-open-source/GNSSTool
 
 [Manuals and documents](../../doc/quectel)
 
