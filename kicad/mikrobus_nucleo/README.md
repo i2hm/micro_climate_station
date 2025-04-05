@@ -1,7 +1,7 @@
 # Arduino/Nucleo shield with two Mikrobus slots with Grove connectors
 
 Arduino pinout with
-* 2 Mikrobus slots
+* 2 [Mikrobus](https://download.mikroe.com/documents/standards/mikrobus/mikrobus-standard-specification-v200.pdf) slots
 * 2 Grove UART connectors ([UART2](https://os.mbed.com/platforms/ST-Nucleo-F446RE/), [UART4](https://os.mbed.com/platforms/ST-Nucleo-F446RE/))
 * 2 Grove I2C connectors
 * 2 Grove GPIO connectors
@@ -13,5 +13,6 @@ Arduino pinout with
 
 ## Alternatives
 
+* [Mikrobus standard specification v2.0](https://download.mikroe.com/documents/standards/mikrobus/mikrobus-standard-specification-v200.pdf)
 * https://www.mikroe.com/arduino-uno-click-shield
 * Nucleo Pinout https://os.mbed.com/platforms/ST-Nucleo-F446RE/
